@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  width: 85%;
+  height: 85vh;
+  margin: 7.5vh auto;
+  background-color: whitesmoke;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.active {
+  flex-grow: 1;
+}
+
+.panel {
+  background-size: cover;
+  min-width: 100px;
+  transition: all 0.4s;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.panel:nth-child(1) {
+  background-image: url(images/1.jpg);
+}
+
+.panel:nth-child(2) {
+  background-image: url(images/2.jpg);
+}
+
+.panel:nth-child(3) {
+  background-image: url(images/3.jpg);
+}
+
+.panel:nth-child(4) {
+  background-image: url(images/4.jpg);
+}
+
+.panel:nth-child(5) {
+  background-image: url(images/5.jpg);
+}
